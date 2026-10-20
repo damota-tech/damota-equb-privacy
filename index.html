@@ -73,9 +73,9 @@
     <p class="note">
       You cannot sign up in the app. Your <strong>equb collector (admin)</strong>
       registers you when you join an equb, entering your name and phone number.
-      You then sign in with that phone number and a <strong>one-time code your
-      collector gives you</strong>. If a collector has not registered you, you
-      cannot use the app.
+      You then sign in with that phone number and a <strong>4-digit PIN your
+      collector gives you</strong>, which you can change in the app. If a
+      collector has not registered you, you cannot use the app.
     </p>
 
     <h2>Information we hold</h2>
@@ -146,7 +146,9 @@
     <p>
       All data travels between the app and our servers over encrypted
       connections (HTTPS). Access is restricted by role: members see only their
-      own records, and collectors see only the equbs they manage.
+      own records, and collectors see only the equbs they manage. Your PIN is
+      stored only as a cryptographic hash, so no one, including us, can read
+      it, and repeated wrong PINs lock sign-in for 15 minutes.
     </p>
 
     <h2>Retention</h2>
